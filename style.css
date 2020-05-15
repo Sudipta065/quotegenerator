@@ -26,8 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 60vh;
-  width: 50vw;
+  max-width: 40vw;
   font-size: 4rem;
   background-color: #eef9bf;
   box-shadow: 0 1rem 2rem #75b79e;
@@ -47,6 +46,7 @@ body {
 #author {
   padding-top: 1rem;
   padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
   border-bottom: 0.1rem solid #75b79e;
   font-style: italic;
   font-size: 65%;
@@ -71,18 +71,15 @@ body {
 }
 
 @media only screen and (max-width: 52.5em) {
-  #quote-box {
-    height: 90vh;
-  }
   .box {
     font-size: 55%;
   }
   #button {
     font-size: 40%;
+    padding: 0.5rem 2rem;
   }
-}
-@media only screen and (max-width: 40em) {
   #quote-box {
-    width: 70vw;
+    max-width: 70vw;
   }
 }
+
