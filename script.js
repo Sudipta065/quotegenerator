@@ -4,7 +4,7 @@ let myFetch = fetch(
 
 myFetch
   .then((results) => {
-    console.log(results);
+   
     return results.json();
   })
   .then((obj) => {
