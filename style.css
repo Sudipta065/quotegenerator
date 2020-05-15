@@ -26,6 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2rem 2rem;
   max-width: 40vw;
   font-size: 4rem;
   background-color: #eef9bf;
@@ -62,12 +63,12 @@ body {
   border-radius: 2rem;
   border: none;
   color: #ffefee;
-  background-color: #75b79e;
+  background-color: #6a8caf;
   transition: all 0.3s ease-in-out;
 }
 #button:hover {
-  background-color: #6a8caf;
-  color: #ffefee;
+  background-color: #ffefee;
+  color: #6a8caf;
 }
 
 @media only screen and (max-width: 52.5em) {
@@ -82,4 +83,3 @@ body {
     max-width: 70vw;
   }
 }
-
